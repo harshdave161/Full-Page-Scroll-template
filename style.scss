@@ -121,3 +121,26 @@ section{
     }
 }
 
+@media screen and (max-width: 500px){
+   .header{
+       padding: 10px 5px;
+       font-size: 1.3em;
+       margin: 0; 
+       font-weight: 900;
+       display: flex;
+       flex-direction: column;
+ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center; 
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    padding: 1em;
+}
+   }
+}
